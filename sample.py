@@ -50,7 +50,7 @@ if query and tool_name:
     os.environ["LANGCHAIN_API_KEY"] = os.getenv("Langchain_api_key")
     # Then, you can use the hub to pull the prompt
     prompt = hub.pull("hwchase17/react")
-    print(prompt.template)
+    # print(prompt.template)
 
     ### agent creation and agent executor creation 
     agent = create_react_agent(llm=llm,tools=tools,prompt=prompt)
