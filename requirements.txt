@@ -1,0 +1,10 @@
+faiss-cpu==1.8.0
+langchain==0.2.13
+python-dotenv==1.0.1
+streamlit==1.22.0
+langchain-community==0.2.12
+langchain-google-genai==1.0.8
+wikipedia
+arxiv
+langchainhub
+langserve
